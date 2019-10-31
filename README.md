@@ -8,4 +8,4 @@ Realtime Game built with SocketIO, Gulp and Node
 - [x] Pug
 - [x] static
 - [x] ESLint
-- [ ] SocketID
+- [x] SocketID
