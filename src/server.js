@@ -23,5 +23,7 @@ const io = socketIO.listen(server);
 let sockets = [];
 
 io.on("connection", socket => {
-  socket.on("helloGuys", () => console.log("the clinet said hello"));
+  socket.on("newMessage", () => {
+    console.log("new message received");
+  });
 });
